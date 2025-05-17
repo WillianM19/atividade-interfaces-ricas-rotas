@@ -7,15 +7,27 @@ export default function Home() {
       <nav className="space-x-4">
         <Link
           href="/about"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition block mb-5"
         >
           Sobre
         </Link>
         <Link
-          href="/product/123"
+          href="/product/1"
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
         >
-          Produto 123
+          Produto 1
+        </Link>
+        <Link
+          href="/product/2"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          Produto 2
+        </Link>
+        <Link
+          href="/product/3"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+        >
+          Produto 3
         </Link>
       </nav>
     </main>
